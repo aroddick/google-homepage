@@ -1,0 +1,14 @@
+/* style.css */
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.button {
+    display: inline-block;
+    cursor: pointer;
+    margin: 0 auto;
+}
