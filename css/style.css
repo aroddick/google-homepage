@@ -37,3 +37,31 @@ input {
     width: 370px;
     height: 25px;
 }
+
+/* .headerleft {
+    position: relative;
+    display: inline-block;
+    left: 10px;
+    top: 10px;
+}
+
+.headerright {
+    position: relative;
+    display: inline-block;
+    top: 10px;
+    right: 10px;
+} */
+
+.about {
+    position: relative;
+    display: inline-block;
+    top: 10px;
+    left: 10px;
+}
+
+.store {
+    position: relative;
+    display: inline-block;
+    top: 0px;
+    left: 20px;
+}
