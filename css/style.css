@@ -1,67 +1,85 @@
 /* style.css */
 
+.center {
+    text-align: center;
+}
+
 .image {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
-    width: 20%;
+    margin-top: 160px;
+    width: 16%;
 }
 
 
 .button {
     cursor: pointer;
-    height: 20px;
+    height: 30px;
     width: 120px;
     position: relative;
-    top: 50%;
-    left: 41.75%;
+    display: inline-block;
     margin-top: 20px;
+    border: none;
+    background-color: rgb(240, 240, 240);
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    color: rgb(56, 56, 56);
 }
 
-.textbox {
-    text-align: center;
-    margin-top: 10px;
-    width: 375px;
-}
-
-form {
-    width: 370px;
-    height: 45px;
-    margin: auto;
-    position: relative;
-    margin-top: 20px;
+.button:hover {
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 1px #777;
 }
 
 input {
-    width: 370px;
+    margin-top: 20px;
+    width: 500px;
     height: 25px;
+    display: inline-block;
+    position: relative;
 }
 
-/* .headerleft {
-    position: relative;
-    display: inline-block;
-    left: 10px;
-    top: 10px;
+.header {
+    font-size: 12px;
 }
 
-.headerright {
-    position: relative;
-    display: inline-block;
-    top: 10px;
-    right: 10px;
-} */
-
-.about {
-    position: relative;
-    display: inline-block;
-    top: 10px;
-    left: 10px;
+.header:hover {
+    text-decoration: underline;
 }
 
-.store {
-    position: relative;
-    display: inline-block;
-    top: 0px;
+#about {
+    position: absolute;
+    top: 18px;
     left: 20px;
+}
+
+#store {
+    position: absolute;
+    top: 18px;
+    left: 67px;
+}
+
+#gmail {
+    position: absolute;
+    top: 18px;
+    right: 130px;
+}
+
+#images {
+    position: absolute;
+    top: 18px;
+    right: 70px;
+}
+
+#apps {
+    position: absolute;
+    top: 18px;
+    right: 40px;
+}
+
+#profile {
+    position: absolute;
+    top: 18px;
+    right: 10px;
 }
