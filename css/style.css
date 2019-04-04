@@ -4,6 +4,14 @@
     text-align: center;
 }
 
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
 .image {
     display: block;
     margin-left: auto;
@@ -27,7 +35,7 @@ button {
     color: rgb(56, 56, 56);
 }
 
-.button:hover {
+button:hover {
     color: rgb(0, 0, 0);
     box-shadow: 0px 0px 1px #777;
 }
@@ -39,6 +47,21 @@ input {
     display: inline-block;
     position: relative;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    padding: 8px;
+}
+
 
 .header {
     font-size: 12px;
